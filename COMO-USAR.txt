@@ -1,0 +1,161 @@
+===============================================================================
+                    PROJETO ITAIPU - ANÁLISE SOCIOAMBIENTAL
+                           GUIA DE USO COMPLETO
+===============================================================================
+
+📋 ÍNDICE
+---------
+1. Pré-requisitos
+2. Instalação
+3. Inicialização
+4. Como Usar o Sistema
+5. Arquivos Importantes
+6. Solução de Problemas
+7. Contato
+
+===============================================================================
+
+1. PRÉ-REQUISITOS
+-----------------
+✅ Python 3.8 ou superior instalado
+✅ Navegador web moderno (Chrome, Firefox, Edge)
+✅ Conexão com internet (para carregar bibliotecas CSS/JS)
+
+Verificar Python:
+> python --version
+
+===============================================================================
+
+2. INSTALAÇÃO
+-------------
+1. Baixar/clonar o projeto
+2. Abrir terminal na pasta do projeto
+3. Instalar dependências:
+
+> cd backend
+> pip install flask flask-cors pandas
+
+===============================================================================
+
+3. INICIALIZAÇÃO
+----------------
+PASSO 1: Iniciar o Backend
+> cd backend
+> python backend.py
+
+✅ Aguardar mensagem: "Running on http://127.0.0.1:5000"
+
+PASSO 2: Abrir o Frontend
+- Navegar até: scripts/frontend/
+- Abrir arquivo: index.html (duplo clique ou arrastar para navegador)
+
+===============================================================================
+
+4. COMO USAR O SISTEMA
+----------------------
+PASSO 1: Upload do Arquivo
+- Clicar em "Selecionar Arquivo CSV"
+- Escolher um arquivo CSV (ex: jardim_limpo.csv)
+- Botão "Analisar Dados" aparecerá
+
+PASSO 2: Análise
+- Clicar em "Analisar Dados"
+- Aguardar processamento (loading aparecerá)
+- Gráficos serão gerados automaticamente
+
+PASSO 3: Visualização
+- Todos os gráficos aparecerão na página
+- Cada coluna do CSV vira um gráfico
+- Scroll para ver todos os resultados
+
+===============================================================================
+
+5. ARQUIVOS IMPORTANTES
+-----------------------
+📂 backend/
+   └── backend.py .................. Servidor da API
+   └── requirements.txt ............ Dependências Python
+
+📂 scripts/
+   └── analisar_dados.py ........... Script de análise
+   └── jardim_limpo.csv ............ Dados Jardim/MS (294 registros)
+   └── navirai_limpo.csv ........... Dados Naviraí/MS (304 registros)
+   └── pontapora_limpo.csv ......... Dados Ponta Porã/MS (187 registros)
+   
+   📂 frontend/
+      └── index.html ............... Interface principal
+      └── index.css ................ Estilos visuais
+      └── app.js ................... Lógica JavaScript
+      └── exemplo-dados.csv ........ Dados de teste
+
+📂 dados/
+   └── jardim.csv .................. Dados originais Jardim/MS
+   └── navirai.csv ................. Dados originais Naviraí/MS
+   └── pontapora.csv ............... Dados originais Ponta Porã/MS
+
+===============================================================================
+
+6. SOLUÇÃO DE PROBLEMAS
+-----------------------
+❌ PROBLEMA: "Erro de conexão"
+✅ SOLUÇÃO: Verificar se backend está rodando em localhost:5000
+
+❌ PROBLEMA: "Módulo não encontrado"
+✅ SOLUÇÃO: Instalar dependências: pip install flask flask-cors pandas
+
+❌ PROBLEMA: "Arquivo não carrega"
+✅ SOLUÇÃO: Usar apenas arquivos CSV válidos
+
+❌ PROBLEMA: "Gráficos não aparecem"
+✅ SOLUÇÃO: Verificar conexão com internet (Chart.js é carregado online)
+
+❌ PROBLEMA: "Interface não abre"
+✅ SOLUÇÃO: Abrir index.html diretamente no navegador
+
+===============================================================================
+
+7. FUNCIONALIDADES DO SISTEMA
+------------------------------
+🔹 Upload de arquivos CSV via interface web
+🔹 Processamento automático de dados
+🔹 Padronização de respostas categóricas
+🔹 Geração automática de gráficos para cada coluna
+🔹 Interface responsiva e moderna
+🔹 Visualização interativa com Chart.js
+🔹 Suporte a qualquer arquivo CSV válido
+
+===============================================================================
+
+8. DADOS DE EXEMPLO
+-------------------
+O sistema inclui arquivo de exemplo para teste:
+
+📊 exemplo-dados.csv - 5 registros, 4 colunas
+   → Dados genéricos para teste do sistema
+
+⚠️ IMPORTANTE: Os dados reais da pesquisa NÃO estão incluídos
+no repositório por questões de privacidade e proteção de
+dados pessoais dos entrevistados.
+
+Para usar o sistema:
+1. Prepare seus próprios dados CSV
+2. Faça upload através da interface
+3. Visualize os gráficos gerados
+
+===============================================================================
+
+9. CONTATO E SUPORTE
+--------------------
+📧 Email: katysilva_99@hotmail.com
+🐙 GitHub: https://github.com/KatSilvax
+💼 LinkedIn: Katcilane Silva de Souza
+
+🏫 Instituto Federal de Mato Grosso do Sul (IFMS)
+🏢 Itaipu Parque Tecnológico
+
+===============================================================================
+
+                        ✅ PROJETO PRONTO PARA USO!
+                    🌱 Desenvolvido para sustentabilidade 💚
+
+===============================================================================

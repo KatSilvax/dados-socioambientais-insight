@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Itaipu - Análise Socioambiental</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="app">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="logo-section">
+                    <i class="fas fa-leaf logo-icon"></i>
+                    <h1>Projeto Itaipu</h1>
+                </div>
+                <p class="hero-subtitle">Análise Socioambiental Inteligente</p>
+                <p class="hero-description">Sistema avançado para análise de dados socioambientais com visualizações interativas</p>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="floating-card delay-1">
+                    <i class="fas fa-water"></i>
+                </div>
+                <div class="floating-card delay-2">
+                    <i class="fas fa-tree"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- Upload Section -->
+        <section class="upload-section">
+            <div class="container">
+                <div class="upload-card">
+                    <div class="upload-header">
+                        <i class="fas fa-cloud-upload-alt upload-icon"></i>
+                        <h2>Carregar Dados CSV</h2>
+                        <p>Arraste seu arquivo ou clique para selecionar</p>
+                    </div>
+                    
+                    <form id="uploadForm" class="upload-form">
+                        <div class="file-drop-zone" id="dropZone">
+                            <input type="file" id="csvFile" accept=".csv" hidden>
+                            <div class="drop-content">
+                                <i class="fas fa-file-csv file-icon"></i>
+                                <span class="drop-text">Clique aqui ou arraste seu arquivo CSV</span>
+                                <span class="file-info" id="fileInfo"></span>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="analyze-btn" id="analyzeBtn" disabled>
+                            <i class="fas fa-magic"></i>
+                            <span>Analisar Dados</span>
+                        </button>
+                    </form>
+                    
+                    <div class="loading-section" id="loadingSection">
+                        <div class="loading-spinner"></div>
+                        <p>Processando seus dados...</p>
+                    </div>
+                    
+                    <div class="error-message" id="errorMessage"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results Section -->
+        <section class="results-section" id="resultsSection">
+            <div class="container">
+                <div class="results-header" id="resultsHeader"></div>
+                <div class="charts-grid" id="chartsContainer"></div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-info">
+                        <h3>Projeto Itaipu</h3>
+                        <p>IFMS & Itaipu Parque Tecnológico</p>
+                    </div>
+                    <div class="footer-links">
+                        <a href="https://github.com/KatSilvax" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/katcilane-silva-de-souza-2018a2127" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+Faixa Etaria,Escolaridade,Renda Familiar,Tipo Moradia,Saneamento,Regiao
+18-25 anos,Ensino Medio,1-2 salarios,Casa propria,Sim,Centro
+26-35 anos,Superior,3-4 salarios,Aluguel,Sim,Norte
+36-45 anos,Pos-graduacao,5+ salarios,Casa propria,Sim,Sul
+46-55 anos,Ensino Medio,2-3 salarios,Cedida,Nao,Leste
+18-25 anos,Ensino Fundamental,1 salario,Aluguel,Parcial,Oeste
+26-35 anos,Superior,4-5 salarios,Casa propria,Sim,Centro
+36-45 anos,Ensino Medio,2-3 salarios,Casa propria,Sim,Norte
+46-55 anos,Ensino Fundamental,1-2 salarios,Cedida,Nao,Sul
+18-25 anos,Superior,3-4 salarios,Aluguel,Sim,Leste
+26-35 anos,Pos-graduacao,5+ salarios,Casa propria,Sim,Oeste
+36-45 anos,Ensino Medio,2-3 salarios,Casa propria,Parcial,Centro
+46-55 anos,Ensino Fundamental,1 salario,Cedida,Nao,Norte
+18-25 anos,Ensino Medio,1-2 salarios,Aluguel,Sim,Sul
+26-35 anos,Superior,3-4 salarios,Casa propria,Sim,Leste
+36-45 anos,Ensino Fundamental,1-2 salarios,Cedida,Nao,Oeste
